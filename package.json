@@ -1,0 +1,19 @@
+{
+    "name": "silence_bot",
+    "version": "0.0.1",
+    "description": "Bot to SILENCE people on Discord",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "EpiX0R",
+    "repository": {
+        "url": "https://github.com/EpiX0R/silence_bot"
+    },
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "discord.js": "^11.4.2",
+        "request": "^2.88.0",
+        "winston": "^3.2.1"
+    }
+}
