@@ -13,9 +13,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     let msg = message.content;
+    let author = message.author;
 
     if (users.includes(message.author.id)) {
-        message.channel.send("You said: \"" + msg + "\"", {files: ["pics/SILENCE_PEDO.jpg"]});
+        message.channel.send("> " + msg + "\n " + author, {files: ["pics/SILENCE_PEDO.jpg"]});
     }
 });
 
