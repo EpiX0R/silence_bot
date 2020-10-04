@@ -23,7 +23,8 @@ Simple installation guide.
 
 1. Clone or download this repository
 2. From within a command-line enter the repository folder and run `npm install`.
-
+3. Rename `auth_template.json` to `auth.json` in the `auth/` folder.
+4. Change the "your token here" text in `auth.json` to your token from the [Discord Developer Portal](https://discord.com/developers).
 
 ## Running the bot
 
@@ -36,3 +37,9 @@ Simple starting guide. This is how you run the bot.
 ### Windows users:
 
 1. Run the start.bat file in the repository folder.
+
+
+## Configuration
+
+In the `settings/` folder you find a `settings.json` file. Within this there is a list called users.
+You can change the lists content to Discord userID's for the bot to recognize users.
